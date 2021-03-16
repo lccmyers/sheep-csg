@@ -23,7 +23,7 @@ boxplot(Metacarpal$J~Metacarpal$Sample, xlab="Sample", ylab="Polar Second Moment
 
 #Zpol boxplots
 boxplot(femur$Zpol~femur$Sample, xlab="Sample", ylab="Polar Section Modulus", main="Femoral Polar Section Modulus", col=colors)
-boxplot(tibia$Zpol~tibia$Sample, xlab="Sample", ylab="Polar Section Modulus", main="Polar Section Modulus", col=colors)
+boxplot(tibia$Zpol~tibia$Sample, xlab="Sample", ylab="Polar Section Modulus", main="Tibial Polar Section Modulus", col=colors)
 boxplot(Metatarsal$Zpol~Metatarsal$Sample, xlab="Sample", ylab="Polar Section Modulus", main="Metatarsal Polar Section Modulus", col=colors)
 boxplot(Metacarpal$Zpol~Metacarpal$Sample, xlab="Sample", ylab="Polar Section Modulus", main="Metacarpal Polar Section Modulus", col=colors)
 
