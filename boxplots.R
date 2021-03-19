@@ -1,4 +1,3 @@
-library(tidyverse)
 
 #getting data into r
 femur<-read.csv(file="Femur.csv", sep=",",header=T)
